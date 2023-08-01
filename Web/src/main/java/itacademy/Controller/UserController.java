@@ -27,7 +27,7 @@ public class UserController {
     }
 
     @PostMapping(
-            value = "/user",
+            value = "/adduser",
             consumes = "application/json",
             produces = "application/json"
     )
